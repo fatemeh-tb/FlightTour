@@ -3,7 +3,7 @@
 public class FlightData
 {
 	public int Id { get; set; }
-	public string? proposalId { get; set; }
+	public int? version { get; set; } = 0;
 	public string? origin { get; set; }
 	public string? destination { get; set; }
 	public string? airlineCode { get; set; }
@@ -29,7 +29,6 @@ public class FlightData
 	public string? airlineName { get; set; }
 }
 
-
 public class Result
 {
 	public int id { get; set; }
@@ -42,4 +41,6 @@ public class Root
 	public int id { get; set; }
 	public Result? result { get; set; }
 }
+
+
 

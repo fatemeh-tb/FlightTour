@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="FlightTourDatabase.db" uuid="8e40110a-a2c6-4b51-b842-8a903df7b0aa">
+    <data-source source="LOCAL" name="FlightTourDatabase.db" uuid="64d58ef9-601b-49e4-af1a-823b4d02189f">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
